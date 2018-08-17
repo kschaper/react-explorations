@@ -1,0 +1,24 @@
+{
+  "description": "Minimal React Setup",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschaper/react-minimal-setup.git"
+  },
+  "author": "Kai Schaper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kschaper/react-minimal-setup/issues"
+  },
+  "homepage": "https://github.com/kschaper/react-minimal-setup#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
