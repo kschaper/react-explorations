@@ -1,15 +1,12 @@
 {
-  "description": "Minimal React Setup",
+  "description": "Minimal React Setup without JSX",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kschaper/react-minimal-setup.git"
+    "url": "https://github.com/kschaper/react-explorations"
   },
   "author": "Kai Schaper",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kschaper/react-minimal-setup/issues"
-  },
-  "homepage": "https://github.com/kschaper/react-minimal-setup#readme",
+  "homepage": "https://kschaper.gitlab.io/posts/minimal-react-setup-with-jsx/",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
