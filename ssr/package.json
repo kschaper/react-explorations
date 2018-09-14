@@ -1,0 +1,18 @@
+{
+  "description": "Server-side rendering with React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kschaper/react-explorations"
+  },
+  "author": "Kai Schaper",
+  "license": "MIT",
+  "homepage": "https://kschaper.gitlab.io/",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}
