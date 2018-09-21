@@ -5,16 +5,19 @@ import ReactDOMServer from 'react-dom/server'
 import HelloWorld from './src/HelloWorld'
 
 const server = http.createServer((req, res) => {
-  const dom = ReactDOMServer.renderToStaticMarkup(<HelloWorld name="World" />)
+  const component = ReactDOMServer.renderToStaticMarkup(
+    <HelloWorld name="World" />
+  )
+
   const html = `<!DOCTYPE html>
   <html>
     <head>
       <meta charset='utf-8'>
       <title>React SSR</title>
     </head>
-      <body>
-        <div id='app'>${ dom }</div>
-      </body>
+    <body>
+      <main>${ component }</main>
+    </body>
   </html>
   `
 
